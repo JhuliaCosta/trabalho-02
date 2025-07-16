@@ -1,4 +1,4 @@
-/* Estilo geral */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,8 +6,6 @@ body {
   color: #222;
   line-height: 1.6;
 }
-
-/* Cabeçalho */
 header {
   background-color: #00695c;
   color: white;
@@ -19,7 +17,7 @@ h1 {
   margin: 0;
 }
 
-/* Grid responsivo */
+
 main.grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
