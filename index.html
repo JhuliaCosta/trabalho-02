@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -14,37 +13,49 @@
 
   <main class="grid">
     <!-- Ponto Disponível -->
-    <section class="ponto-parada disponivel" aria-label="Ponto disponível">
-      <h2>Bloco A - Ponto 01</h2>
+    <section class="ponto-parada disponivel" aria-labelledby="ponto1-titulo">
+      <h2 id="ponto1-titulo">Bloco A - Ponto 01</h2>
       <p><strong>Localização:</strong> Bloco A</p>
       <p><strong>Capacidade:</strong> 20 vagas</p>
       <p><strong>Bicicletas estacionadas:</strong> 5</p>
-      <p class="extra coberto">☂ Coberto</p>
-      <p class="extra vigilancia">🛡 Vigilância</p>
-      <p class="extra iluminacao">💡 Iluminação</p>
-      <div class="estado estado-disponivel">
-        <span class="icone">✅</span> <span>Disponível</span>
+      <p class="extra coberto" aria-label="Coberto">☂ Coberto</p>
+      <p class="extra vigilancia" aria-label="Vigilância">🛡 Vigilância</p>
+      <p class="extra iluminacao" aria-label="Iluminação">💡 Iluminação</p>
+      <div class="estado estado-disponivel" aria-label="Disponível">
+        <span class="icone" aria-hidden="true">✅</span> <span>Disponível</span>
       </div>
     </section>
 
     <!-- Ponto Quase Cheio -->
-    <section class="ponto-parada quase-cheio" aria-label="Ponto quase cheio">
-      <h2>Biblioteca - Ponto 02</h2>
+    <section class="ponto-parada quase-cheio" aria-labelledby="ponto2-titulo">
+      <h2 id="ponto2-titulo">Biblioteca - Ponto 02</h2>
       <p><strong>Localização:</strong> Biblioteca Central</p>
       <p><strong>Capacidade:</strong> 15 vagas</p>
       <p><strong>Bicicletas estacionadas:</strong> 12</p>
-      <p class="extra ao-ar-livre">🌤 Ao ar livre</p>
-      <p class="extra iluminacao">💡 Iluminação</p>
-      <div class="estado estado-quase">
-        <span class="icone">⚠️</span> <span>Quase cheio</span>
+      <p class="extra ao-ar-livre" aria-label="Ao ar livre">🌤 Ao ar livre</p>
+      <p class="extra iluminacao" aria-label="Iluminação">💡 Iluminação</p>
+      <div class="estado estado-quase" aria-label="Quase cheio">
+        <span class="icone" aria-hidden="true">⚠️</span> <span>Quase cheio</span>
       </div>
     </section>
 
     <!-- Ponto Lotado -->
-    <section class="ponto-parada lotado" aria-label="Ponto lotado">
-      <h2>Bloco C - Ponto 03</h2>
+    <section class="ponto-parada lotado" aria-labelledby="ponto3-titulo">
+      <h2 id="ponto3-titulo">Bloco C - Ponto 03</h2>
       <p><strong>Localização:</strong> Bloco C</p>
       <p><strong>Capacidade:</strong> 10 vagas</p>
       <p><strong>Bicicletas estacionadas:</strong> 10</p>
-      <p class="extra coberto">☂ Coberto</p>
-      <p class="extra vigilancia">🛡 Vigilância</p>
+      <p class="extra coberto" aria-label="Coberto">☂ Coberto</p>
+      <p class="extra vigilancia" aria-label="Vigilância">🛡 Vigilância</p>
+      <p class="extra iluminacao" aria-label="Iluminação">💡 Iluminação</p>
+      <div class="estado estado-lotado" aria-label="Lotado">
+        <span class="icone" aria-hidden="true">❌</span> <span>Lotado</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Sistema de Estacionamento de Bicicletas no Campus</p>
+  </footer>
+</body>
+</html>
